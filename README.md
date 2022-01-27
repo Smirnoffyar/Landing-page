@@ -1,1 +1,1 @@
-# This is a training landing page
+# Training landing page
