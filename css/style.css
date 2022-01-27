@@ -96,7 +96,7 @@ h1, h2, h3, h4, h5, h6 {
 
 .new_design_container {
     width: 100%;
-    max-width: 570px;
+    max-width: 555px;
     margin: 0;
 }
 
@@ -105,4 +105,19 @@ h1, h2, h3, h4, h5, h6 {
     color: #ff6d6d;
     font-size: 16px;
     font-weight: 500;
+}
+
+.new_design_head {
+    font-size: 40px;
+    color: #282828;
+    font-weight: 500;
+}
+
+.new_design_head span {
+    color: #ff6d6d;
+}
+
+.new_design_container_text {
+    width: 100%;
+    max-width: 570px;
 }
