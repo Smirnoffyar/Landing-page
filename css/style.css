@@ -90,11 +90,13 @@ h1, h2, h3, h4, h5, h6 {
 
 .new_design {   
     background: url("../img/triangle.jpg") right no-repeat;    
-    height: 724px; 
+    height: 724px;
     display: flex;
     flex-direction: column;
     justify-content: center;  
 }
+
+
 
 .new_design_container {
     width: 100%;
@@ -113,6 +115,7 @@ h1, h2, h3, h4, h5, h6 {
     font-size: 40px;
     color: #282828;
     font-weight: 500;
+    margin-top: 0;
 }
 
 .new_design_head span {
@@ -171,4 +174,82 @@ h1, h2, h3, h4, h5, h6 {
 
 .features_item:last-child {
     padding-right: 0;
+}
+
+/* New design second */
+
+.new_design_second {   
+    background: url("../img/triangle_left.jpg") left no-repeat;
+    height: 550px;    
+    display: flex;
+    flex-direction: column;
+    justify-content: center;  
+}
+
+.new_design_second_container {
+    display: flex;
+    width: 100%;
+    max-width: 1165px;    
+    align-items: center;
+    margin: 0 auto;
+}
+
+.new_design_second_mac img {
+    height: 360px;
+}
+
+.new_design_second_container_text {
+    margin-left: 60px;
+}
+
+.new_design_h1{
+    text-transform: uppercase;
+    color: #ff6d6d;
+    font-size: 16px;
+    font-weight: 500;
+}
+
+.new_design_head {
+    font-size: 40px;
+    color: #282828;
+    font-weight: 500;
+}
+
+.new_design_head span {
+    color: #ff6d6d;
+}
+
+/* Client */
+
+.client {
+    background: url("../img/background_clients.jpg") center no-repeat;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: center; 
+    text-align: center;
+    height: 500px;
+}
+
+.client_container {
+    display: flex;    
+    justify-content: space-between;
+}
+
+.client_item {
+    width: 357px;
+}
+
+.client_name {
+    font-size: 22px;
+    color: #fff;
+    font-weight: 500;
+}
+
+.client_rank {
+    color: #ff6d6d;
+}
+
+.client_text {
+    color: #fff;
 }
